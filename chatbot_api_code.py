@@ -39,12 +39,8 @@ def lambda_handler(event, context):
         contentType='application/json',
         accept='application/json',
         # modelId='anthropic.claude-sonnet-4-6',
-        modelId='arn:aws:bedrock:eu-central-1:864456252731:inference-profile/eu.amazon.nova-2-lite-v1:0'
-        # modelId='amazon.nova-pro-v1:0',
-        # trace='ENABLED',
-        # guardrailIdentifier='string',
-        # guardrailVersion='string',
-        # performanceConfigLatency='standard',
+        modelId='ARN_OF_MODEL'
+    
     )
 
     print(response)
